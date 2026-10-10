@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Royal Lives Custom Prints — custom T-shirts, hoodies, caps, mugs and gifts in South Africa.">
+<title>Royal Lives | Custom Prints & Unique Designs</title>
+<style>
+:root{--ink:#10131c;--yellow:#ffdc00;--pink:#ff4db8;--blue:#45d9f4;--paper:#fffdf8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--paper)}
+header{background:#0c0d10;color:white;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;gap:16px;position:sticky;top:0;z-index:5}
+.brand{font-weight:1000;font-size:clamp(1.3rem,4vw,2rem);font-style:italic;letter-spacing:-1px}.brand span{color:var(--yellow)}
+nav{display:flex;gap:18px;flex-wrap:wrap}nav a{color:white;text-decoration:none;font-weight:700;font-size:.95rem}
+.hero{padding:54px 5%;color:white;background:linear-gradient(115deg,#11131b 0 53%,#25273a 53% 70%,#ffdc00 70% 74%,#ff4db8 74% 82%,#45d9f4 82%);display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;min-height:370px}
+.kicker{letter-spacing:3px;text-transform:uppercase;font-weight:800}.hero h1{font-size:clamp(2.8rem,7vw,5.6rem);line-height:.93;margin:12px 0}.hero h1 span{color:var(--yellow)}.hero p{font-size:1.1rem;line-height:1.6;max-width:560px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.btn{display:inline-block;background:var(--yellow);color:#111;padding:13px 20px;border-radius:28px;text-decoration:none;font-weight:900;border:0;cursor:pointer}.btn.outline{background:transparent;color:white;border:2px solid white}
+.art{display:grid;grid-template-columns:1fr 1fr;gap:12px;transform:rotate(1deg)}.mock{min-height:135px;border-radius:18px;padding:18px;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:1000;font-size:1.25rem;box-shadow:0 12px 25px #0003}.mock:nth-child(1){background:#fff;color:#111}.mock:nth-child(2){background:#111;color:var(--yellow)}.mock:nth-child(3){background:var(--pink);color:#111}.mock:nth-child(4){background:var(--blue);color:#111}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:18px 5%;background:#11131a;color:white;text-align:center;font-weight:700}
+section{padding:42px 5%}.section-title{font-size:clamp(1.7rem,4vw,2.4rem);margin:0 0 8px}.sub{color:#535766;margin:0 0 22px}
+.categories,.products{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.category{padding:24px;border-radius:15px;font-weight:900;font-size:1.1rem}.category:nth-child(1){background:#fff0a7}.category:nth-child(2){background:#ffd5f0}.category:nth-child(3){background:#c9f5ff}.category:nth-child(4){background:#e9d7ff}.category:nth-child(5){background:#d2f4e5}.category:nth-child(6){background:#ffddc9}
+.product{border:1px solid #e7e7e7;border-radius:16px;overflow:hidden;background:white;box-shadow:0 5px 16px #10131c0a}.product-art{height:170px;display:grid;place-items:center;font-size:3rem;font-weight:1000;color:#111}.product:nth-child(3n+1) .product-art{background:#f5f5f5}.product:nth-child(3n+2) .product-art{background:#ffe1f4}.product:nth-child(3n) .product-art{background:#d9f8ff}.product-info{padding:15px}.product-info h3{margin:0 0 8px}.price{font-weight:900;margin-bottom:13px}.product-info .btn{width:100%;text-align:center;border-radius:10px}
+.order{background:linear-gradient(120deg,#e8d7ff,#d4f8ff,#ffe0f4);border-radius:18px;padding:26px}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.step{background:#ffffffa8;padding:16px;border-radius:12px}.step b{display:block;margin-bottom:8px}
+.contact{background:#10131a;color:white;border-radius:16px;padding:26px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.contact p{margin-bottom:0;color:#ddd}
+footer{background:#0c0d10;color:white;padding:28px 5%;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}footer a{color:var(--yellow)}
+.small{font-size:.85rem;color:#b8bbc4}
+@media(max-width:700px){header{align-items:flex-start;flex-direction:column}nav{gap:13px}.hero{grid-template-columns:1fr;padding-top:38px}.art{max-width:440px}.benefits{grid-template-columns:1fr}.categories,.products{grid-template-columns:repeat(2,minmax(0,1fr))}.steps{grid-template-columns:1fr 1fr}.mock{min-height:100px;font-size:1rem}}
+@media(max-width:420px){.categories,.products{grid-template-columns:1fr}.hero h1{font-size:3rem}.steps{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="#home" style="color:white;text-decoration:none">♛ ROYAL <span>LIVES</span></a>
+  <nav aria-label="Main navigation"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#order">How to order</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+  <div>
+    <div class="kicker">Custom prints • Unique designs • Your style</div>
+    <h1>WELCOME TO<br>ROYAL <span>LIVES</span></h1>
+    <p>Custom prints for every part of your life. From T-shirts and hoodies to mugs, caps and gifts, bring your idea to life with Royal Lives.</p>
+    <div class="actions"><a class="btn" href="#shop">Shop products →</a><a class="btn outline" href="https://wa.me/27820451262?text=Hi%20Royal%20Lives!%20I%27d%20like%20to%20ask%20about%20custom%20prints." target="_blank" rel="noopener">WhatsApp us</a></div>
+  </div>
+  <div class="art" aria-label="Examples of custom print products">
+    <div class="mock">👕<br> DREAM BIG</div><div class="mock">🧥<br> GOOD VIBES</div>
+    <div class="mock">🧢<br> ROYAL LIVES</div><div class="mock">☕<br> YOUR DESIGN</div>
+  </div>
+</section>
+<div class="benefits"><div>🚚 South African orders</div><div>✍️ Custom designs welcome</div><div>💛 Support a small business</div></div>
+<section>
+  <h2 class="section-title">Shop by category</h2><p class="sub">Choose a product and make it your own.</p>
+  <div class="categories"><div class="category">👕 T-Shirts</div><div class="category">🧥 Hoodies</div><div class="category">🧢 Caps</div><div class="category">☕ Mugs</div><div class="category">🛋️ Cushions</div><div class="category">🎁 Accessories & gifts</div></div>
+</section>
+<section id="shop">
+  <h2 class="section-title">Featured products</h2><p class="sub">Prices below are starter examples—confirm your real prices before publishing.</p>
+  <div class="products" id="products"></div>
+</section>
+<section id="order">
+  <div class="order"><h2 class="section-title">How to order</h2><div class="steps">
+    <div class="step"><b>1. Choose a product</b>Pick an item and tell us the size, colour and quantity.</div>
+    <div class="step"><b>2. Share your design</b>Send your image or describe your idea on WhatsApp.</div>
+    <div class="step"><b>3. Confirm the details</b>We’ll confirm price, production time and delivery before you pay.</div>
+    <div class="step"><b>4. Print & deliver</b>Your custom order is prepared for delivery in South Africa.</div>
+  </div></div>
+</section>
+<section id="contact">
+  <div class="contact"><div><h2 style="margin:0">Have a special idea?</h2><p>Contact Royal Lives about custom prints and orders.</p></div><a class="btn" href="https://wa.me/27820451262?text=Hi%20Royal%20Lives!%20I%27d%20like%20a%20custom%20print%20quote." target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+  <p class="small">WhatsApp: 082 045 1262 · South Africa</p>
+</section>
+</main>
+<footer><div><strong>♛ ROYAL <span style="color:#ffdc00">LIVES</span></strong><p class="small">Custom prints • Unique designs • Your style</p></div><div><a href="#home">Back to top ↑</a><p class="small">© <span id="year"></span> Royal Lives</p></div></footer>
+<script>
+const products=[
+ {name:"Royal Lives T-Shirt",price:180,icon:"👕"},
+ {name:"Custom Hoodie",price:350,icon:"🧥"},
+ {name:"Royal Lives Cap",price:150,icon:"🧢"},
+ {name:"Custom Mug",price:120,icon:"☕"},
+ {name:"Printed Cushion",price:160,icon:"🛋️"},
+ {name:"Custom Gift",price:100,icon:"🎁"}
+];
+const cart=[];
+const host=document.getElementById("products");
+products.forEach((p,i)=>{const card=document.createElement("article");card.className="product";card.innerHTML=`<div class="product-art" aria-hidden="true">${p.icon}</div><div class="product-info"><h3>${p.name}</h3><div class="price">R ${p.price}</div><button class="btn" type="button" aria-label="Add ${p.name} to order">Add to order</button></div>`;card.querySelector("button").addEventListener("click",()=>{cart.push(p);const list=cart.map(x=>`${x.name} — R ${x.price}`).join("\\n");const msg=encodeURIComponent(`Hi Royal Lives! I'd like to order:\\n${list}\\nPlease confirm availability, sizes/options, delivery cost and final price.`);window.open(`https://wa.me/27820451262?text=${msg}`,"_blank","noopener");});host.appendChild(card)});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
